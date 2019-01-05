@@ -1,0 +1,121 @@
+/* font-family: 'Acme', sans-serif;
+font-family: 'Francois One', sans-serif;
+font-family: 'Fredoka One', cursive; */
+
+body {
+  font-family: 'Francois One', sans-serif;
+  background-image: url("images/light_grey_@2X.jpg");
+  text-align: left;
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Fredoka One', cursive;
+  color: white;
+  font-size: 30px;
+}
+
+h5 {
+  font-size: 14px;
+}
+
+.jumbotron {
+  text-align: center;
+	font-family: 'Fredoka One', cursive;
+  background: linear-gradient(to right, red , yellow);;
+  color: white;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 5px solid white;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: darkgrey;
+  color: white;
+  text-align: center;
+  font-size: 12px;
+}
+
+.gifDiv{
+  float: left;
+  margin: 3px;
+}
+
+.form-group {
+  width: 300px;
+  float: right;
+}
+
+.form-control {
+  font-size: 14px;
+}
+
+.container {
+  max-width: 100%;
+}
+
+#main {
+  width: 40px;
+}
+
+p {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-size: 14px;
+  font-style: italic;
+}
+
+image {
+  width: 200px;
+  padding: 0 0 10 20;
+}
+
+form.example input[type=text] {
+  font-size: 15px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: left;
+  font-size: 15px;
+  width: 10%;
+  background: #2196F3;
+  color: white;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#gifsView {
+  margin-top: 5px;
+}
+
+button {
+  font-size: 25px;
+  color: darkblue;
+  border: 0px solid;
+  background-color: transparent;
+  margin-right: 6px;
+}
+
+.btn {
+  font-size: 12px;
+  margin-bottom: 2px;
+}

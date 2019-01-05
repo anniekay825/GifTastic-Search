@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+
+    <title>Favorite Disney Characters | GifTastic Homework</title>
+</head>
+
+<body>
+    <div class="jumbotron">
+        <h1><img id="main" src="assets/images/mickeyIcon.png" width="40px">
+            &nbsp<img id="main" src="assets/images/minnieIcon.png" width="40px">
+            &nbsp<img id="main" src="assets/images/goofyIcon.png" width="40px">
+            &nbsp<img id="main" src="assets/images/donaldIcon.png" width="40px">
+            &nbsp<img id="main" src="assets/images/tinkIcon.png" width="40px">
+            &nbsp<img id="main" src="assets/images/walleIcon.png" width="40px">
+            &nbsp<img id="main" src="assets/images/dumboIcon.png" width="40px">
+            &nbsp<img id="main" src="assets/images/stitchIcon.png" width="40px">
+            &nbsp<img id="main" src="assets/images/jessieIcon.png" width="40px">
+        </h1>
+        <h1>Who's your favorite Disney character?</h1>
+    </div>
+
+    <div class="container">
+        <!-- My favorite character buttons -->
+        <div class="row">
+            <div class="col-sm-9" id="button-view">
+                <h5>Click a button to check out the gifs for a character:</h5>
+                <div id="gifButtonsView" class="container">
+                </div>
+                
+            </div>
+            <!-- New button placement -->
+            <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+                <div id="gifsView"></div>
+            </div>
+            <!-- button to add new characters -->
+            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                    <form id="gif-form" role="form">
+
+                        <div class="form-group">
+                            <label for="person-input">Add your favorite character!</label>
+                            <input type="text" id="person-input">
+                        
+                        <button id="addGif" type="submit" class="far fa-hand-point-up"></button>
+                    </div>
+                    </form>    
+                </div>
+
+        <!-- Section for gifs -->
+        <div class="row">
+            <div class="col-sm-4" id="gifsButtonView" class="container"></div>
+        </div>
+    </div>
+
+    <div class="footer">Powered By GIPHY</div>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+
+    <script src="assets/GifTastic.js"></script>
+</body>
+
+</html>
